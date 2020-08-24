@@ -12,9 +12,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/SpEcHiDe/PyroGramUserBot",
-  "success_url": "https://telegram.dog/UserBotTalk",
-  "website": "https://github.com/SpEcHiDe/PyroGramUserBot",
+  "repository": "https://github.com/Anonymous5945/pyronew",
+  "success_url": "https://github.com/Anonymous5945/pyronew",
+  "website": "https://github.com/Anonymous5945/pyronew",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -30,6 +30,10 @@
     },
     "HU_STRING_SESSION": {
       "description": "Generate this value by running python3 GenerateStringSession.py locally",
+      "value": ""
+    },
+    "TG_COMPANION_BOT": {
+      "description": "Tg bot token",
       "value": ""
     },
     "COMMAND_HAND_LER": {
