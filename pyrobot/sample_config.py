@@ -13,7 +13,7 @@ class Config():
     HU_STRING_SESSION = os.environ.get("HU_STRING_SESSION", None)
     TG_COMPANION_BOT = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
     #
-    USE_AS_BOT = bool(os.environ.get("USE_AS_BOT", False))
+    USE_AS_BOT = bool(os.environ.get("USE_AS_BOT", True))
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
     # specify command handler that should be used for the plugins
